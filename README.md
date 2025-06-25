@@ -1,40 +1,39 @@
-# Monitoramento de Máquinas Virtuais no Microsoft Azure
+# Monitoramento de Máquinas Virtuais no Azure
 
-## Descrição do Projeto
-Este repositório documenta a configuração e o gerenciamento do monitoramento de máquinas virtuais (VMs) no Microsoft Azure. O objetivo é demonstrar como garantir visibilidade, controle e resposta rápida a eventos críticos, como a exclusão acidental de uma VM.
+## Sobre este projeto
+Este repositório reúne todo o processo de configuração e gerenciamento do monitoramento de máquinas virtuais no Microsoft Azure. A ideia é mostrar como garantir que possamos acompanhar o funcionamento das VMs, detectar problemas rapidamente e reagir, como no caso de uma exclusão inesperada.
 
-## Objetivos de Aprendizagem
-- Aplicar conceitos práticos de monitoramento no Azure.
-- Documentar passo a passo os processos técnicos envolvidos.
-- Compartilhar conhecimento através do GitHub, facilitando estudos futuros e a implementação em ambientes reais.
+## O que você vai aprender aqui
+- Como colocar em prática o monitoramento no Azure para VMs.
+- Documentar cada etapa técnica de forma clara e objetiva.
+- Usar o GitHub para organizar e compartilhar esse conhecimento.
 
-## Conteúdo
-1. Configuração do Azure Monitor para VMs
-2. Criação e uso de alertas no Azure Monitor
-3. Uso do Log Analytics para consultas e análise
-4. Monitoramento e troubleshooting com Network Watcher
-5. Exemplo prático de detecção e resposta a exclusão de VM
-6. Dicas e melhores práticas
+## Conteúdos abordados
+1. Configuração básica do Azure Monitor para VMs
+2. Criação de alertas para eventos importantes
+3. Consultas usando Log Analytics para analisar dados coletados
+4. Diagnóstico de rede com Network Watcher
+5. Cenário prático: identificar e agir sobre exclusão de VM
+6. Recomendações e boas práticas
 
-## Passo a Passo Resumido
+## Guia rápido
 
-### 1. Configurar Azure Monitor
-- Ativar diagnósticos para máquinas virtuais
-- Vincular VMs a um Log Analytics Workspace
+### 1. Ativando o Azure Monitor
+- Configurar diagnósticos nas máquinas virtuais
+- Associar as VMs a um workspace do Log Analytics
 
-### 2. Criar alertas
-- Criar alertas baseados em métricas e logs (ex: exclusão de VM)
-- Configurar grupos de ação para notificações via e-mail
+### 2. Configurando alertas
+- Criar alertas com base em métricas e logs (por exemplo, para exclusão de VM)
+- Definir grupos de ação para notificação automática
 
-### 3. Utilizar Log Analytics
-- Executar queries KQL para análise de logs coletados
-- Exemplo de query para detectar eventos de exclusão
+### 3. Explorando o Log Analytics
+- Criar e executar queries Kusto (KQL) para monitoramento
+- Exemplo de consulta para capturar eventos de exclusão
 
-### 4. Usar Network Watcher para diagnóstico de rede
-- Habilitar Network Watcher na região
-- Utilizar recurso IP Flow Verify para analisar tráfego
+### 4. Usando Network Watcher para análise
+- Habilitar o recurso na região correspondente
+- Utilizar ferramentas como IP Flow Verify para diagnosticar tráfego
 
-## Recursos Úteis
-- [Documentação oficial - Monitoramento de VMs no Azure](https://learn.microsoft.com/azure/azure-monitor/insights/vminsights-overview)
-- [Guia GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-
+## Materiais de referência
+- [Documentação oficial do Azure Monitor para VMs](https://learn.microsoft.com/azure/azure-monitor/insights/vminsights-overview)
+- [Guia de Markdown para GitHub](https://guides.github.com/features/mastering-markdown/)
